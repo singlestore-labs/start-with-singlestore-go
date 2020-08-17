@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  memsql:
+    build: .
+    ports:
+    - 3306:3306
+    - 8080:8080
+    # persist data between runs
+    volumes:
+    - db-data:/var/lib/memsql
+    environment:
+    # use the LICENSE_KEY environment variable set in the terminal:
+    - LICENSE_KEY=${LICENSE_KEY}
+    - START_AFTER_INIT=Y
+
+volumes:
+  db-data:
