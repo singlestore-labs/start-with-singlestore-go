@@ -18,10 +18,10 @@ type Message struct {
 func main() {
 
 	// TODO: read from config
-	HOSTNAME := "127.0.0.1"
+	HOSTNAME := "localhost"
 	PORT := "3306"
 	USERNAME := "root"
-	PASSWORD := ""
+	PASSWORD := "password_here"
 	DATABASE := "acme"
 
 	connection := USERNAME + ":" + PASSWORD + "@tcp(" + HOSTNAME + ":" + PORT + ")/" + DATABASE + "?parseTime=true"
