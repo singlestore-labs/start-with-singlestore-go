@@ -1,6 +1,7 @@
 Getting started with SingleStore and Go
 =======================================
 
+**Attention**: The code in this repository is intended for experimental use only and is not fully tested, documented, or supported by SingleStore. Visit the [SingleStore Forums](https://www.singlestore.com/forum/) to ask questions about this repository.
 
 Whether you're using an ORM or straight SQL, you can get started with SingleStore (formerly MemSQL) fast. Here's an introductory sample of using SingleStore with Go. This sample includes all the CRUD methods: Create, Read by id, Read all, Update, and Delete.
 
