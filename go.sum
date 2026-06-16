@@ -1,0 +1,4 @@
+filippo.io/edwards25519 v1.2.0 h1:crnVqOiS4jqYleHd9vaKZ+HKtHfllngJIiOpNpoJsjo=
+filippo.io/edwards25519 v1.2.0/go.mod h1:xzAOLCNug/yB62zG1bQ8uziwrIqIuxhctzJT18Q77mc=
+github.com/singlestore-labs/go-singlestore-driver/v2 v2.0.1 h1:pGccp6N7AWIDxRyEywHWbWZy/UkWRqxbP0d16+bHfhA=
+github.com/singlestore-labs/go-singlestore-driver/v2 v2.0.1/go.mod h1:E5n3QxSsEk+E+pvmDhxbGmPwnkAPU6vhesMUnjs8kCY=

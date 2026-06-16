@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	_ "github.com/go-sql-driver/mysql"
+	_ "github.com/singlestore-labs/go-singlestore-driver/v2"
 )
 
 // Message message type
@@ -25,7 +25,7 @@ func main() {
 	DATABASE := "acme"
 
 	connection := USERNAME + ":" + PASSWORD + "@tcp(" + HOSTNAME + ":" + PORT + ")/" + DATABASE + "?parseTime=true"
-	db, err := sql.Open("mysql", connection)
+	db, err := sql.Open("singlestore", connection)
 	if err != nil {
 		panic(err)
 	}
